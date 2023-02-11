@@ -5,12 +5,3 @@ button {
     width:90px;
     cursor:pointer;
  }
- 
-/* button[data-toggle=toggle]:not(:checked) {
-    background-color: #333;
-    color: #ccc;
-  }
-  
-  button[data-toggle=toggle]:checked {
-    background-color: rgb(56, 146, 56);
-  } */
