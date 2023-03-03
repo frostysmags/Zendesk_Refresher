@@ -6,7 +6,7 @@ function startInterval() {
           if (localStorage.getItem('isToggled') === 'true') {
             chrome.tabs.executeScript(tabs[0].id, {
                 code: `
-                chrome.runtime.sendMessage({ action: "LOG_INFO", viewCount: document.querySelector('a[class="sc-1s8ami4-3 VxCKy"] div[data-test-id="views_views-list_row_count"]').innerHTML }, function(response) {});
+                chrome.runtime.sendMessage({ action: "LOG_INFO", viewCount: document.querySelector('a[data-view-id="360111822573"] div[data-test-id="views_views-list_row_count"]').innerHTML }, function(response) {});
                 document.querySelector('[data-test-id=views_views-list_header-refresh]').click();
                 `
             });
