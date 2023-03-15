@@ -7,7 +7,7 @@
         "html":["background.html"],
         "scripts": ["background.js"]
     },
-    "permissions":["activeTab"],
+    "permissions":["tabs", "activeTab"],
     "browser_action": {
         "default_popup":"popup.html"
     },
