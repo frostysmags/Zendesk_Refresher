@@ -5,3 +5,6 @@ button {
   width:90px;
   cursor:pointer;
 }
+body {
+  background-color: #222;
+}
